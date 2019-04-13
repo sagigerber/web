@@ -19,3 +19,4 @@ The site will include the following pages:
 **Versions:**
 *1.0.0*
 - Initial project structure 
+    - Added index.html
