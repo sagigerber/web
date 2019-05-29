@@ -1,8 +1,7 @@
 # WEB Project 2019 Semester B - BGU
 **Author: Sagi Gerber**
-**Repository:
-[http://github.com/sagigerber/web](http://github.com/sagigerber/web)*
-*
+**Repository:**
+[http://github.com/sagigerber/web](http://github.com/sagigerber/web)
 **Version: 1.0**
 ## Project subject
 > The project will include a site for buying watches. 
