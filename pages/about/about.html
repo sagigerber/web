@@ -4,35 +4,24 @@
     <meta charset="UTF-8">
     <title>Watch2Buy</title>
     <link rel="icon" href=../../images/icon.ico />
+    <link rel="stylesheet" href="../headerstyle2.css">
 </head>
 <body>
-    <header>
-        <span>
-            <img src="../../images/mainheadernew.png" alt="Watch2Buy" />
-        </span>
-        <spann>
-        <input id="search-input"  type="search" placeholder="enter your search type"/>
-        <input id="submit-input"  type="submit"  value="Search" />
-        </spann>
-        <br/>
-        <span>
-            <button><a href="../homepage/homepage.html"> <font size="5"> Home page </font> </a> &nbsp;&nbsp;</button>
-            <button><a href="../catalog/catalog.html"> <font size="=5"> Catalog </font> </a> &nbsp;&nbsp;</button>
-            <button><a href="about.html"> <font size="=5"> About </font></a> &nbsp;&nbsp;</button>
-        </span>
-        <span style="float:right">
-           <button> <a href="login"> <font size="=5"> Login </font></a> </button>
-        </span>
-        <form method="post" action="" enctype="text/plain">
-            <fieldset>
-                <label for="username">username</label>
-                <input type="text" id="username">
-                <label for="password">password</label>
-                <input type="password" id="password" maxlength="12">
-                <input type="submit" value="login">
-            </fieldset>
-        </form>
-        <hr/>
+    <header class="header">
+        <div class="header">
+            <div class="menu">
+                <a class="active" href="../homepage/homepage.html">Home</a>
+                <a href="../about/about.html">About</a>
+                <a href="../catalog/catalog.html">Catalog</a>
+            </div>
+            <div class="login-container">
+                <form action="/action_page.php">
+                    <input  type="text" placeholder="Username" name="username">
+                    <input type="text" id="password" minlength="4" placeholder="Password" name="psw">
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </div>
     </header>
     <div>
         <h1> The Company</h1>
@@ -59,17 +48,16 @@
         </p>
     </div>
     <footer>
-        <div>
-        <img src="../../images/mainheaderfooter.png" alt="Watch2Buy" />
-        </div>
-        <br/>
-        <li><a href="../homepage/homepage.html"> <font size="5"> Home page </font> </a></li>
-        <li><a href="about.html"> <font size="=5"> About </font> </a> </li>
-        <li><a href="login"> <font size="=5"> Login </font></a> </li>
-        <div style="float:right">
-            <a > <font size="5" >  Contacat us</font></a>
-            <br/>
-            <a> 0525547722 </a>
+        <link rel="stylesheet" href="../footerstyle.css">
+        <div class="footer">
+            <div class="menu footer" >
+                <a class="active" href="../homepage/homepage.html">Home</a>
+                <a href="../about/about.html">About</a>
+                <a href="../sign_in/sign_in.html">Sign in</a>
+            </div>
+            <div style="float:right">
+                <a > Contacat us: 0525547722</a>
+            </div>
         </div>
     </footer>
 

@@ -1,0 +1,41 @@
+* {box-sizing: border-box;}
+
+/* Style the navbar */
+.footer {
+    overflow: hidden;
+    background-color: #e9e9e9;
+}
+
+/* Navbar links */
+.footer a {
+    float: contour;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.menu footer{
+    display: inline-block;
+    width: 17%;
+    left: 29%;
+    position: relative;
+}
+
+/* Navbar links on mouse-over */
+.footer a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Active/current link */
+.footer a.active {
+    background-color: #2196F3;
+    color: white;
+
+}
+
+
