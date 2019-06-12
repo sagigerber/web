@@ -10,16 +10,21 @@ h4 {
     font-size: 16pt;
     color: #aaa;
 }
-figure {
-       float: left;
-   }
+
 figure img {
-    max-width: 500px;
+    max-width: 350px;
 }
 section {
      font-family: Tahoma, Arial, sans-serif;
      line-height: 150%;
-     float: right;
      width: 300px;
      color: #333;
  }
+.button5 {background-color: #555555;
+    font-size: 24px;}
+.center {
+    margin: auto;
+    width: 50%;
+    border: 5px solid darkblue;
+    padding: 10px;
+}
