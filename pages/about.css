@@ -1,40 +1,41 @@
-
-.container2 {
-    position: relative;
-    width: 50%;
+.textabout p{
+    text-align: center;
+    font-style: italic;
 }
-.homepic {
+
+.abtytlestyle{
+    text-align: center;
+    font-style: italic;
+
+}
+.aboutpic {
     position: relative;
     text-align: center;
     color: white;
     margin-top: 20px;
 }
+
 .txpic {
     display: block;
-    font-size: 45px;
-    font-weight: 300;
+    font-size: 40px;
+    font-weight: 365;
     line-height: 36px;
     min-height: 120px;
     margin-bottom: 25px;
     position: absolute;
     top: 50%;
-    left: 22%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    text-shadow: black;
-    font-style:normal;
-    font-family: Tahoma;
 }
 .txpic2{
     display: block;
-    font-size: 45px;
-    font-weight: 300;
+    font-size: 40px;
+    font-weight: 350;
     line-height: 36px;
     min-height: 120px;
     margin-bottom: 25px;
     position: absolute;
     top: 65%;
-    left: 25%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    font-style:normal;
-    font-family: Tahoma;
 }
