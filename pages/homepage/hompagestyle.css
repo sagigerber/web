@@ -1,0 +1,40 @@
+
+.container2 {
+    position: relative;
+    width: 50%;
+}
+.homepic {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+.txpic {
+    display: block;
+    font-size: 45px;
+    font-weight: 300;
+    line-height: 36px;
+    min-height: 120px;
+    margin-bottom: 25px;
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    text-shadow: black;
+    font-style:normal;
+    font-family: Tahoma;
+}
+.txpic2{
+    display: block;
+    font-size: 45px;
+    font-weight: 300;
+    line-height: 36px;
+    min-height: 120px;
+    margin-bottom: 25px;
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-style:normal;
+    font-family: Tahoma;
+}
