@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+    <link rel="stylesheet" href="todo bgu.css">
+    <header>
+        <div class=maintitle>
+            <h1> BGU Todo App</h1>
+        </div>
+    </header>
+    <main>
+        <div class="new-item">
+            <input type="text" maxlength="57" class="placeholderdesign" onkeyup="hidebtn()" placeholder="Enter item to add to the list">
+        </div>
+            <button onclick="addmission()" class="mainbtn hide">Click here to add the item</button>
+            <ul class="todolist">
+
+            </ul>
+    </main>
+    <footer>
+        <div class="completed">
+            Completed: <span class="completed-count">no</span> items
+        </div>
+    </footer>
+    </body>
+    <script src="mainjs.js"></script>
+</html>

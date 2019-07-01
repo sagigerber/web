@@ -24,13 +24,13 @@
 </header>
 <div class="wrap">
     <h2> Sign up Here</h2>
-    <form>
-        <input type ="text" placeholder="First Name..." required>
-        <input type ="text" placeholder="Last Name..." required>
-        <input type ="text" placeholder="Email..." required>
-        <input type ="text" placeholder="Username..." required>
-        <input type ="text" placeholder="Password..." required>
-        <input type ="text" placeholder="First Name..." required>
+    <form name="input_details" onsubmit="return validateForm()">
+        <input name="fname" type ="text" placeholder="First Name..." >
+        <input name="lname" type ="text" placeholder="Last Name..." >
+        <input name="email" type ="text" placeholder="Email..." >
+        <input name="uname" type ="text" placeholder="Username..." >
+        <input name="password" type ="text" placeholder="Password..." >
+        <input name="second_password" type ="text" placeholder="Confirm password..." >
         <input type ="submit" value="Sign up">
     </form>
 </div>
@@ -51,4 +51,5 @@
 
 sign in
 </body>
+<script src="sign_in.js"></script>
 </html>
